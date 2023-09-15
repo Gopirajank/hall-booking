@@ -139,7 +139,7 @@ app.get("/", (req, res) => {
   console.log("Welcome To Hall Booking");
 });
 
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3002;
 
 app.listen(port, () => {
   console.log(`server started at ${port}`);
